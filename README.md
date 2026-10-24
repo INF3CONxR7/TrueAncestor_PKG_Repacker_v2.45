@@ -22,11 +22,23 @@
 
 ## Utilisation
 
-1. Téléchargez l’archive de l’outil et extrayez-la sur votre PC Windows.
+1. Téléchargez ce dépôt avec **Code → Download ZIP**, puis extrayez l’archive sur votre PC Windows.
 2. Conservez une copie des fichiers originaux avant toute modification.
-3. Lancez l’utilitaire et choisissez l’opération souhaitée : extraction, création ou reconstruction.
+3. Lancez `repacker.exe` depuis le dossier extrait et choisissez l’opération souhaitée : extraction, création ou reconstruction.
 4. Sélectionnez le package ou le dossier à traiter, puis suivez les instructions affichées.
 5. Vérifiez le résultat avant d’utiliser le package généré sur votre console.
+
+## Contenu du dépôt
+
+Le dépôt contient la distribution binaire Windows de la version 2.45 :
+
+- `repacker.exe` : programme principal.
+- `tool/` : les 23 outils, bibliothèques et fichiers auxiliaires fournis avec le programme.
+- `data/` : les fichiers `keys`, `ldr_curves` et `vsh_curves` nécessaires aux outils.
+- `history.txt` : historique des versions fourni avec le programme.
+- `avatar/`, `edat/`, `game/`, `pkg/`, `raps/`, `temp/` et `theme/` : dossiers de travail conservés avec des fichiers `.gitkeep`.
+
+Conservez cette arborescence complète à côté de `repacker.exe`. Le contenu ajouté dans les dossiers de travail et les rapports de plantage `*.stackdump` sont ignorés par Git. Les sources du logiciel ne sont pas incluses dans cette distribution.
 
 ## Important
 

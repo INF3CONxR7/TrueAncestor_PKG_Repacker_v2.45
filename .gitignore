@@ -1,0 +1,18 @@
+# Crash reports and temporary output.
+*.stackdump
+
+# Keep the working folders without publishing their generated or personal content.
+/avatar/*
+!/avatar/.gitkeep
+/edat/*
+!/edat/.gitkeep
+/game/*
+!/game/.gitkeep
+/pkg/*
+!/pkg/.gitkeep
+/raps/*
+!/raps/.gitkeep
+/temp/*
+!/temp/.gitkeep
+/theme/*
+!/theme/.gitkeep

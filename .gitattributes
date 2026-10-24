@@ -1,0 +1,12 @@
+# Preserve the original Windows program files byte for byte.
+*.exe binary
+*.dll binary
+/data/* -text
+/tool/PARAM.* -text
+/history.txt -text
+
+# Repository documentation and metadata use consistent line endings.
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.gitkeep text eol=lf
